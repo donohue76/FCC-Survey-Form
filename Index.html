@@ -6,33 +6,37 @@
 	<title>FCC Survey Form</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-
 	<body>
-		<div class="container"> 
-			<div class="row1">
-				<div class="col-12">
-					<div id="title">
-						<h1>
-							FCC Survey Form Project
-						</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row2">
-				<div class="col-6-left">
-
-				</div>
-				<div class="col-6-right">
-
-
-				</div>
-			</div>
+		<div>
+			<h1 id="title">FCC Survey Form</h1>
+			<p id="description">This is my FCC Survey Form Project</p>
 		</div>
 
-
-
-
-
+		<form id="survey-form">
+			<div class="grid-container">
+			  <div class="grid-item-odd">
+			  	<div class="labels">
+					<label id="name-label" for="name">* Name: </label>
+				</div>
+			  </div>
+			  <div class="grid-item">
+			  	<input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
+			  </div>
+			  <div class="grid-item-odd">
+			  	<div class="labels">
+					<label id="email-label" for="email">* Email: </label>
+				</div>
+			  </div>  
+			  <div class="grid-item">
+			  	<input type="email" name="email" id="email" class="input-field" required="" placeholder="Enter your Email">
+			  </div>
+			  <div class="grid-item-odd">5</div>
+			  <div class="grid-item">6</div>  
+			  <div class="grid-item-odd">7</div>
+			  <div class="grid-item">8</div>
+			  <div class="grid-item-odd">9</div>
+			  <div class="grid-item">10</div>
+			</div>
+		</form>
 	</body>
-
 </html>
