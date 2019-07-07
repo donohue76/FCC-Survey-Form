@@ -4,7 +4,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   background-color: #2196F3;
   padding: 10px;
 }
@@ -57,4 +57,27 @@ h1 {
     width: 40%;
     padding: 5px;
     vertical-align: top;
+}
+
+#comments {
+	width: 95%;
+}
+
+.dropdown {
+	margin-left: 10px;
+}
+
+.button {
+	text-align: center;
+}
+
+#submit {
+	background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
 }
